@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "nodemon  server.js"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/jordeguevara/restAPI/issues"
   },
-  "homepage": "https://github.com/jordeguevara/restAPI#readme"
+  "homepage": "https://github.com/jordeguevara/restAPI#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10"
+  }
 }
